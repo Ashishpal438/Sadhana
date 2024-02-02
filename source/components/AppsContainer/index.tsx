@@ -11,21 +11,25 @@ const AppsContainer: React.FC = () => {
   return (
     <div className="h-fit bg-[#042843] flex flex-col justify-center items-center  pt-[28px] pb-[25px] md:py-[55px]">
       <div className="flex flex-col gap-[29px] md:gap-[20px] md:mb-[50px] mb-[31px]">
-        <h1 className="text-[#FFE8BB] text-center font-[Open Sens] text-[56px] md:text-[45px] font-[300] leading-[37px] tracking-[1.68px] md:tracking-[1.35px] capitalize px-[90px] md:px-0">
+        <h1 className="text-[#FFE8BB] text-center font-[Open Sens] text-[37px] md:text-[45px] font-[300] leading-[43px] md:leading-[37px] tracking-[1.68px] md:tracking-[1.35px] capitalize px-[52px] md:px-0">
           Four Pre Installed Apps | Offerings
         </h1>
-        <h5 className="text-base-white font-[Open Sens] text-[26px] md:text-[26px] font-[300] leading-[37px] tracking-[0.78px] text-center md:leading-[37px] md:tracking-[0.78px] px-[50px] md:px-0">
+        <h5 className="text-base-white font-[Open Sens] text-[15px] md:text-[26px] font-[300] leading-[23px] tracking-[0.78px] text-center md:leading-[37px] md:tracking-[0.78px] px-[50px] md:px-0">
           Your gateway to secluded sadhana with apps for spiritual enrichment{" "}
         </h5>
       </div>
 
-      <div className="grid grid-cols-2 gap-x-[105px] gap-y-[29.5px] md:flex flex-wrap md:gap-[95px]">
+      <div className="grid grid-cols-2 gap-x-[105px] gap-y-[29.5px] md:flex flex-wrap md:gap-[95px] px-[100px]">
         <div
           className="flex flex-col gap-[11px] md:gap-[17px] items-center cursor-pointer"
           onClick={() => router.replace("/#sadhana")}
         >
-          <Image src={sadhanaLogo} alt="Sadhana" width={78} height={78} />
-          <p className="text-base-white text-center font-[Open Sens] text-[27px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
+          <Image
+            src={sadhanaLogo}
+            alt="Sadhana"
+            className="md:w-[78px] md:h-[78px] w-[55px] h-[55px]"
+          />
+          <p className="text-base-white text-center font-[Open Sens] text-[15px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
             Sadhana
           </p>
         </div>
@@ -33,8 +37,12 @@ const AppsContainer: React.FC = () => {
           className="flex flex-col gap-[11px] md:gap-[17px] items-center cursor-pointer"
           onClick={() => router.replace("/#satsang")}
         >
-          <Image src={satsangLogo} alt="Sadhana" width={78} height={78} />
-          <p className="text-base-white text-center font-[Open Sens] text-[27px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
+          <Image
+            src={satsangLogo}
+            alt="Sadhana"
+            className="md:w-[78px] md:h-[78px] w-[55px] h-[55px]"
+          />
+          <p className="text-base-white text-center font-[Open Sens] text-[15px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
             Satsang
           </p>
         </div>
@@ -42,8 +50,12 @@ const AppsContainer: React.FC = () => {
           className="flex flex-col gap-[11px] md:gap-[17px] items-center cursor-pointer"
           onClick={() => router.replace("/#svadhaya")}
         >
-          <Image src={savadhyaLogo} alt="Sadhana" width={78} height={78} />
-          <p className="text-base-white text-center font-[Open Sens] text-[27px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
+          <Image
+            src={savadhyaLogo}
+            alt="Sadhana"
+            className="md:w-[78px] md:h-[78px] w-[55px] h-[55px]"
+          />
+          <p className="text-base-white text-center font-[Open Sens] text-[15px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
             Svadhaya
           </p>
         </div>
@@ -51,13 +63,17 @@ const AppsContainer: React.FC = () => {
           className="flex flex-col gap-[11px] md:gap-[17px] items-center cursor-pointer"
           onClick={() => router.replace("/#sangeet")}
         >
-          <Image src={sangeetLogo} alt="Sadhana" width={78} height={78} />
-          <p className="text-base-white text-center font-[Open Sens] text-[27px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
+          <Image
+            src={sangeetLogo}
+            alt="Sadhana"
+            className="md:w-[78px] md:h-[78px] w-[55px] h-[55px]"
+          />
+          <p className="text-base-white text-center font-[Open Sens] text-[15px] md:text-[27px] font-[600] leading-[37px] tracking-[-1.08] md:tracking-[-0.81px]">
             Sangeet
           </p>
         </div>
       </div>
-      <h4 className="text-base-white text-center text-[25px] md:text-[25px] font-[300] font-[Open Sens] leading-[30.5px] tracking-[0.75px] md:tracking-[0.75px] mt-[50px]">
+      <h4 className="text-base-white text-center text-[15px] md:text-[25px] font-[300] font-[Open Sens] leading-[30.5px] tracking-[0.75px] md:tracking-[0.75px] mt-[50px]">
         Experience A Proud Journey Within
       </h4>
     </div>

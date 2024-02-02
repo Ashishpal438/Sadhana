@@ -16,29 +16,29 @@ import tab3 from "../../assets/home_tab3.png";
 import tab4 from "../../assets/home_tab4.png";
 import tab5 from "../../assets/home_tab5.png";
 import newTab from "../../assets/newTab.png";
-import React from 'react'
-import logo1 from "../../assets/omswami icons/omswami_icon1.png"
-import logo2 from "../../assets/omswami icons/omswami_icon2.png"
-import logo3 from "../../assets/omswami icons/omswami_icon3.png"
-import logo4 from "../../assets/omswami icons/omswami_icon4.png"
-import logo5 from "../../assets/omswami icons/omswami_icon5.png"
-import Image, { StaticImageData } from 'next/image'
-import featureLogo1 from "../../assets/homepage_features_logo/feature_logo1.png"
-import featureLogo2 from "../../assets/homepage_features_logo/feature_logo2.png"
-import featureLogo3 from "../../assets/homepage_features_logo/feature_logo3.png"
-import featureLogo4 from "../../assets/homepage_features_logo/feature_logo4.png"
-import featureLogo5 from "../../assets/homepage_features_logo/feature_logo5.png"
-import featureLogo6 from "../../assets/homepage_features_logo/feature_logo6.png"
-import featureLogo7 from "../../assets/homepage_features_logo/feature_logo7.png"
-import featureLogo8 from "../../assets/homepage_features_logo/feature_logo8.png"
-import featureLogo9 from "../../assets/homepage_features_logo/feature_logo9.png"
-import featureLogo10 from "../../assets/homepage_features_logo/feature_logo10.png"
-import featureLogo11 from "../../assets/homepage_features_logo/feature_logo11.png"
-import featureLogo12 from "../../assets/homepage_features_logo/feature_logo12.png"
-import featureLogo13 from "../../assets/homepage_features_logo/feature_logo13.png"
-import featureLogo14 from "../../assets/homepage_features_logo/feature_logo14.png"
-import featureLogo15 from "../../assets/homepage_features_logo/feature_logo15.png"
-import featureLogo16 from "../../assets/homepage_features_logo/feature_logo16.png"
+import React from "react";
+import logo1 from "../../assets/omswami icons/omswami_icon1.png";
+import logo2 from "../../assets/omswami icons/omswami_icon2.png";
+import logo3 from "../../assets/omswami icons/omswami_icon3.png";
+import logo4 from "../../assets/omswami icons/omswami_icon4.png";
+import logo5 from "../../assets/omswami icons/omswami_icon5.png";
+import Image, { StaticImageData } from "next/image";
+import featureLogo1 from "../../assets/homepage_features_logo/feature_logo1.png";
+import featureLogo2 from "../../assets/homepage_features_logo/feature_logo2.png";
+import featureLogo3 from "../../assets/homepage_features_logo/feature_logo3.png";
+import featureLogo4 from "../../assets/homepage_features_logo/feature_logo4.png";
+import featureLogo5 from "../../assets/homepage_features_logo/feature_logo5.png";
+import featureLogo6 from "../../assets/homepage_features_logo/feature_logo6.png";
+import featureLogo7 from "../../assets/homepage_features_logo/feature_logo7.png";
+import featureLogo8 from "../../assets/homepage_features_logo/feature_logo8.png";
+import featureLogo9 from "../../assets/homepage_features_logo/feature_logo9.png";
+import featureLogo10 from "../../assets/homepage_features_logo/feature_logo10.png";
+import featureLogo11 from "../../assets/homepage_features_logo/feature_logo11.png";
+import featureLogo12 from "../../assets/homepage_features_logo/feature_logo12.png";
+import featureLogo13 from "../../assets/homepage_features_logo/feature_logo13.png";
+import featureLogo14 from "../../assets/homepage_features_logo/feature_logo14.png";
+import featureLogo15 from "../../assets/homepage_features_logo/feature_logo15.png";
+import featureLogo16 from "../../assets/homepage_features_logo/feature_logo16.png";
 import sadhanaBook from "../../assets/sadhanaBook.png";
 import AnimatedTab from "../../assets/tab.gif";
 import QuoteContainer from "@components/Quote";
@@ -56,12 +56,12 @@ export default async function Home() {
       {/* Hero Part */}
       <div className="flex md:flex-row flex-col-reverse justify-center items-center w-full h-fit md:h-screen pt-[73px] md:pt-0 md:gap-[72px] mt-[53px] md:mt-0 mb-[0px] md:mb-0">
         <div className="flex flex-col gap-[18px] md:gap-[44px] items-center mt-[-30%] md:mt-0">
-          <h1 className="capitalize font-open-sans text-[#FFE8BA] text-[56px] md:text-[59px] font-[300] md:leading-[70px] tracking-[0.56px] md:tracking-[0.59px] md:text-left leading-[70px] text-center">
+          <h1 className="capitalize font-open-sans text-[#FFE8BA] text-[37px] md:text-[59px] font-[300] md:leading-[70px] tracking-[0.56px] md:tracking-[0.59px] md:text-left leading-[43px] text-center">
             Your Gateway to
             <br />
             Sacred Digital Worship
           </h1>
-          <p className="md:text-right text-center  text-base-white text-[25px] md:text-[25px] capitalize font-[300] md:font-[300] leading-[30px] tracking-[0.25px] md:tracking-[0.25px] font-open-sans">
+          <p className="md:text-right text-center  text-base-white text-[15px] md:text-[25px] capitalize font-[300] md:font-[300] leading-[30px] tracking-[0.25px] md:tracking-[0.25px] font-open-sans">
             Experience the World's First Custom built
             <br />
             Tablet with Distraction-Free Spirituality
@@ -73,8 +73,8 @@ export default async function Home() {
       </div>
 
       {/* Animated Tab */}
-      <div className="flex justify-center items-center flex-col gap-[50px] relative md:pt-[165px]">
-        <h1 className="text-[#FFE8BA] px-[70px] md:px-0 text-center capitalize font-open-sans text-[56px] md:text-[48px] font-[300] leading-[55px] tracking-[0.56px] md:tracking-[0.48px] mb-[20px] md:mb-0">
+      <div className="flex justify-center items-center flex-col gap-[20px] relative md:pt-[165px] pt-[165px]">
+        <h1 className="text-[#FFE8BA] px-[70px] md:px-0 text-center capitalize font-open-sans text-[37px] md:text-[48px] font-[300] leading-[43px] md:leading-[55px] tracking-[0.56px] md:tracking-[0.48px] mb-[0px] md:mb-0">
           Welcome to sadhana Tablet
         </h1>
 
@@ -83,21 +83,24 @@ export default async function Home() {
                 flex flex-col
                 items-center 
               text-base-white
-                text-[26px]
+                text-[15px]
+                md:text-[26px] 
                 text-center
                 md:text-2xl
                 font-open-sans
                 font-[400]
-                leading-[38px]
+                leading-[23px]
                 tracking-[0.78px]
                 md:leading-[38px]
+                px-[80px]
+                md:px-[0]
                 md:tracking-[0.72px]"
         >
           <p>
             Elevate your spiritual journey with the Sadhana Tablet, where
-            <br />
+            <br className="md:inline-block hidden" />
             Vedic wisdom meets modern ease. Access sacred Vedic rituals,
-            <br />
+            <br className="md:inline-block hidden" />
             Sadhanas, texts, music, podcasts, and meditations.
           </p>
         </div>
@@ -114,7 +117,7 @@ export default async function Home() {
               !text-[11px]
               md:!text-[18px]
               mt-[-5%]
-              md:mt-[-7%]
+              md:mt-[-3%]
               font-open-sans
               capitalize
               leading-[38px]
@@ -178,7 +181,7 @@ export default async function Home() {
         fLogo2={featureLogo2}
         fLogo3={featureLogo3}
         fLogo4={featureLogo4}
-        fHeading1="Interactive Vedic Rituals"
+        fHeading1="Perform Vedic Rituals"
         fHeading2="Awaken with Powerful Mantras"
         fHeading3="Access Ancient Wisdom"
         fHeading4="Stay Connected, Evolve Continuously"
@@ -191,7 +194,7 @@ export default async function Home() {
       {/* Section 2 */}
 
       <div
-        className="w-full flex flex-col justify-center items-center text-center md:pt-[200px] pt-[163px]"
+        className="w-full flex flex-col justify-center items-center text-center md:pt-[200px] pt-[67px]"
         id="satsang"
       >
         <div className="flex flex-col md:gap-[44px] gap-[45px]">
@@ -227,7 +230,7 @@ export default async function Home() {
       {/* Section 3 */}
 
       <div
-        className="w-full flex flex-col justify-center items-center text-center md:pt-[200px] pt-[163px]"
+        className="w-full flex flex-col justify-center items-center text-center md:pt-[200px] pt-[67px]"
         id="svadhaya"
       >
         <div className="flex flex-col md:gap-[44px] gap-[45px]">
@@ -266,7 +269,7 @@ export default async function Home() {
       {/* Section 4 */}
 
       <div
-        className="w-full flex flex-col justify-center items-center text-center md:pt-[200px] pt-[163px]"
+        className="w-full flex flex-col justify-center items-center text-center md:pt-[200px] pt-[67px]"
         id="sangeet"
       >
         <div className="flex flex-col md:gap-[44px] gap-[45px]">
@@ -299,7 +302,7 @@ export default async function Home() {
           fSubHeading4="Experience devotional meditations led by Om Swami himself."
         />
 
-        <div className="flex flex-col justify-center items-center md:mt-[88px] mt-[117px]">
+        <div className="flex flex-col justify-center items-center md:mt-[88px] mt-[69px]">
           <div className="h-[220px] w-[210px] bg-sadhana-background-logo flex justify-center items-center relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -374,18 +377,18 @@ export default async function Home() {
         </div> */}
 
       <div className="flex flex-col md:flex-row w-full bg-[#A2D0E9] justify-center items-center">
-        <div className="w-[45vw] md:flex flex-col justify-center items-start md:pl-[195px] md:gap-[50px] hidden">
-          <h3 className="text-[#0275B5] font-[Open Sans] md:text-[56px] font-[600] md:leading-[59.5px] md:tracking-[1.68px] uppercase">
+        {/* <div className="w-[45vw] md:flex flex-col justify-center items-start md:pl-[195px] md:gap-[50px] hidden">
+          <h3 className="text-[#0275B5] font-[Open Sans] text-[37px] md:text-[56px] font-[600] leading-[43px] md:leading-[59.5px] md:tracking-[1.68px] uppercase">
             Offer A Gift Of Dharma To Your Loved Ones
           </h3>
           <PrimaryButton text={"Preorder"} pathUrl={"preorder"} />
-        </div>
+        </div> */}
         <p className="text-[#0275B5] text-[36px] font-[600] leading-[39px] uppercase text-center mt-[37px] md:hidden">
           Offer A Gift <br />
           Of Dharma To <br />
           Your Loved Ones
         </p>
-        <div className="md:w-[55vw] flex items-end justify-end">
+        <div className="md:w-[55vw] flex items-end justify-end mb-[50px] mt-[50px]">
           <Image src={sadhanaBook} alt="" />
         </div>
         <div className="mb-[52px] md:hidden">
@@ -397,19 +400,19 @@ export default async function Home() {
 }
 
 interface FeaturesContainerInterface {
-  fLogo1?: StaticImageData,
-  fLogo2?: StaticImageData,
-  fLogo3?: StaticImageData,
-  fLogo4?: StaticImageData,
-  fHeading1?: string,
-  fHeading2?: string,
-  fHeading3?: string,
-  fHeading4?: string,
-  fSubHeading1?: string,
-  fSubHeading2?: string,
-  fSubHeading3?: string,
-  fSubHeading4?: string,
-  subHeadingStyle?: boolean
+  fLogo1?: StaticImageData;
+  fLogo2?: StaticImageData;
+  fLogo3?: StaticImageData;
+  fLogo4?: StaticImageData;
+  fHeading1?: string;
+  fHeading2?: string;
+  fHeading3?: string;
+  fHeading4?: string;
+  fSubHeading1?: string;
+  fSubHeading2?: string;
+  fSubHeading3?: string;
+  fSubHeading4?: string;
+  subHeadingStyle?: boolean;
 }
 
 const FeaturesContainer: React.FC<FeaturesContainerInterface> = ({
@@ -425,17 +428,17 @@ const FeaturesContainer: React.FC<FeaturesContainerInterface> = ({
   fSubHeading2,
   fSubHeading3,
   fSubHeading4,
-  subHeadingStyle
+  subHeadingStyle,
 }) => {
   return (
-    <div className="flex justify-center items-center md:gap-[24px] md:px-[217px] w-full">
+    <div className="flex justify-center items-center md:gap-[24px] md:px-[117px] w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-[55px] md:gap-y-[31px] gap-y-[54px] place-items-start w-full">
         {fLogo1 && (
           <div className="flex flex-col md:flex-row justify-center md:justify-start items-center md:gap-[30px] w-full">
             <div className="w-full md:w-[21%] flex justify-center items-center">
               <Image src={fLogo1} alt="" />
             </div>
-            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[20px] md:gap-[16px] mt-[12px] md:mt-0">
+            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[5px] md:gap-[16px] mt-[12px] md:mt-0">
               <h6 className="text-[#FFE6BB] text-[24.9px] md:text-[24px] font-[600] font-[Open Sans] leading-[37px] md:tracking-[0.72px]">
                 {fHeading1}
               </h6>
@@ -467,7 +470,7 @@ const FeaturesContainer: React.FC<FeaturesContainerInterface> = ({
                 }
               />
             </div>
-            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[20px] md:gap-[16px] mt-[12px] md:mt-0">
+            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[5px] md:gap-[16px] mt-[12px] md:mt-0">
               <h6 className="text-[#FFE6BB] text-[24.9px] md:text-[24px] font-[600] font-[Open Sans] leading-[37px] md:tracking-[0.72px]">
                 {fHeading2}
               </h6>
@@ -489,7 +492,7 @@ const FeaturesContainer: React.FC<FeaturesContainerInterface> = ({
             <div className="w-full md:w-[21%] flex justify-center items-center">
               <Image src={fLogo3} alt="" />
             </div>
-            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[20px] md:gap-[16px] mt-[12px] md:mt-0">
+            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[5px] md:gap-[16px] mt-[12px] md:mt-0">
               <h6 className="text-[#FFE6BB] text-[24.9px] md:text-[24px] font-[600] font-[Open Sans] leading-[37px] md:tracking-[0.72px]">
                 {fHeading3}
               </h6>
@@ -510,8 +513,8 @@ const FeaturesContainer: React.FC<FeaturesContainerInterface> = ({
             <div className="w-full md:w-[21%] flex justify-center items-center">
               <Image src={fLogo4} alt="" className="" />
             </div>
-            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[20px] md:gap-[16px] mt-[12px] md:mt-0">
-              <h6 className="text-[#FFE6BB] text-[24.9px] md:text-[24px] font-[600] font-[Open Sans] leading-[37px] md:tracking-[0.72px]">
+            <div className="w-full flex flex-col items-center md:items-start justify-center gap-[5px] md:gap-[16px] mt-[12px] md:mt-0">
+              <h6 className="text-[#FFE6BB] md:text-left text-center text-[24.9px] md:text-[24px] font-[600] font-[Open Sans] md:leading-[37px] leading-[37px] md:tracking-[0.72px]">
                 {fHeading4}
               </h6>
               <p
@@ -529,65 +532,108 @@ const FeaturesContainer: React.FC<FeaturesContainerInterface> = ({
       </div>
     </div>
   );
-}
+};
 
 interface TitleContainerInterface {
-  image: StaticImageData,
-  heading: string,
-  subHeading: string
+  image: StaticImageData;
+  heading: string;
+  subHeading: string;
 }
 
-const TitleContainer: React.FC<TitleContainerInterface> = ({ image, heading, subHeading }) => {
+const TitleContainer: React.FC<TitleContainerInterface> = ({
+  image,
+  heading,
+  subHeading,
+}) => {
   return (
     <div className="w-full flex flex-col justify-center items-center ">
       <div className="relative flex justify-center items-center">
-          <Image src={image} alt="Sadhana" className="relative z-10"  />
-          <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 134 134" fill="none" className="absolute ">
-            <g filter="url(#filter0_f_646_220)">
-              <circle cx="67" cy="67" r="45" fill="#04C8FF"/>
-            </g>
-            <defs>
-              <filter id="filter0_f_646_220" x="0" y="0" width="134" height="134" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                <feGaussianBlur stdDeviation="11" result="effect1_foregroundBlur_646_220"/>
-              </filter>
-            </defs>
-          </svg>
-          <div className=" w-[322px] absolute h-[21px] bg-[#04C8FF] rounded-[322px] blur-[20px]">
-          </div>
+        <Image src={image} alt="Sadhana" className="relative z-10" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="120"
+          height="120"
+          viewBox="0 0 134 134"
+          fill="none"
+          className="absolute "
+        >
+          <g filter="url(#filter0_f_646_220)">
+            <circle cx="67" cy="67" r="45" fill="#04C8FF" />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_646_220"
+              x="0"
+              y="0"
+              width="134"
+              height="134"
+              filterUnits="userSpaceOnUse"
+              colorInterpolationFilters="sRGB"
+            >
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="11"
+                result="effect1_foregroundBlur_646_220"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <div className=" w-[322px] absolute h-[21px] bg-[#04C8FF] rounded-[322px] blur-[20px]"></div>
       </div>
       <div className="relative flex justify-center items-center">
-        <h1 className="text-base-white font-open-sans text-[39px] font-[600] leading-[37px] md:tracking-[1.17px] uppercase mt-[20px] md:mt-[25px]">{heading}</h1>
-        <div className="absolute w-[293px] md:w-[333px] h-[37px] md:h-[42px] bg-[#04C8FF4D] rounded-[293px]
-        mt-[20px] md:mt-[25px] blur-[11px]"></div>
+        <h1 className="text-base-white font-open-sans text-[37px] md:text-[39px] font-[600] leading-[37px] md:tracking-[1.17px] uppercase mt-[15px] md:mt-[25px]">
+          {heading}
+        </h1>
+        <div
+          className="absolute w-[293px] md:w-[333px] h-[17px] md:h-[42px] bg-[#04C8FF4D] rounded-[293px]
+        mt-[20px] md:mt-[25px] blur-[11px]"
+        ></div>
       </div>
-      <h6 className="text-base-white text-[15px] md:text-[26px] leading-[23px] md:leading-[37px] md:tracking-[0.78px] tracking-[0.45px] font-open-sans font-[400] capitalize md:mt-[25px] mt-[28px] xl:px-[380px] lg:px-[250px] px-[60px] md:px-[150px]">{subHeading}</h6>
+      <h6 className="text-base-white text-[15px] md:text-[26px] leading-[23px] md:leading-[37px] md:tracking-[0.78px] tracking-[0.45px] font-open-sans font-[400] capitalize md:mt-[25px] mt-[16px] xl:px-[380px] lg:px-[250px] px-[60px] md:px-[150px] mb-[55px] md:mb-0">
+        {subHeading}
+      </h6>
     </div>
   );
-}
+};
 
 interface ImageContainerInterface {
-  tabImage: StaticImageData,
-  hindiLogoImage: StaticImageData,
-  text: string
+  tabImage: StaticImageData;
+  hindiLogoImage: StaticImageData;
+  text: string;
 }
 
-const ImageContainer: React.FC<ImageContainerInterface> = ({ tabImage, hindiLogoImage, text }) => {
+const ImageContainer: React.FC<ImageContainerInterface> = ({
+  tabImage,
+  hindiLogoImage,
+  text,
+}) => {
   return (
     <div className="flex flex-col justify-center items-center md:pb-[63px] pb-[66px]">
-      <Image src={tabImage} alt="Tab" className="md:mt-[3%] md:mb-[3%]" height={498} width={778}/>
+      <Image
+        src={tabImage}
+        alt="Tab"
+        className="md:mt-[3%] md:mb-[3%]"
+        height={498}
+        width={778}
+      />
       <LogoCard />
       <Image src={hindiLogoImage} alt="" className="px-[82px] md:px-0" />
-      <h5 className="md:text-[26px] text-[15px] text-base-white font-[600] leading-[23px] md:leading-[37px] md:tracking-[0.78px] tracking-[0.45px] px-[82px] ">{text}</h5>
+      <h5 className="md:text-[26px] mt-[12px] text-[15px] text-base-white font-[600] leading-[23px] md:leading-[37px] md:tracking-[0.78px] tracking-[0.45px] px-[82px] ">
+        {text}
+      </h5>
     </div>
   );
-}
-
+};
 
 const LogoCard = () => {
   return (
-    <div className="grid grid-cols-2 place-items-center justify-items-center md:flex justify-center items-center md:gap-[37px] gap-y-[3px] px-[40px] md:px-0 md:mb-[3%]">
+    <div className="flex md:justify-center justify-between items-center md:gap-[37px] gap-y-[3px] px-[5px] md:px-0 md:mb-[3%] mb-[57px] md:mt-0 mt-[48px]">
       <div className="col-span-2">
         <Card text="Perform Yagna" imageUrl={logo1} />
       </div>
@@ -597,19 +643,20 @@ const LogoCard = () => {
       <Card text="Take up Sadhana" imageUrl={logo5} />
     </div>
   );
-}
+};
 
 interface CardInterface {
-  text: string,
-  imageUrl: StaticImageData,
+  text: string;
+  imageUrl: StaticImageData;
 }
 
 const Card: React.FC<CardInterface> = ({ text, imageUrl }) => {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className="flex flex-col justify-center items-center">
       <Image src={imageUrl} alt={text} />
-      <h5 className='text-base-white text-[15px] md:text-[18px] font-open-sans font-[400] md:leading-[37px] md:tracking-[0.54px] '>{text}</h5>
+      <h5 className="text-base-white text-[15px] md:text-[18px] font-open-sans font-[400] leading-[18px] md:leading-[37px] md:tracking-[0.54px] ">
+        {text}
+      </h5>
     </div>
   );
-}
-
+};
