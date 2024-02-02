@@ -13,17 +13,19 @@ export default function RootLayout({
 }) {
   return (
     <>
-    <html lang="en">
-      <body className={`${montserrat.className} ${openSans.className} ${tiroGurmukhi.className} ${roboto.className} ${inter.className}`}>
-        <div className="bg-main-mobile md:bg-main">
-          <Headers />
-          {children}
-          <Footer />
-          <ScrollToTop />
-        </div>
-      </body>
-    </html>
-    <Script src="https://checkout.razorpay.com/v1/checkout.js" />
+      <html lang="en">
+        <body
+          className={`${montserrat.className} ${openSans.className} ${tiroGurmukhi.className} ${roboto.className} ${inter.className}`}
+        >
+          <div className="bg-main-mobile md:bg-main  bg-no-repeat bg-cover">
+            <Headers />
+            {children}
+            <Footer />
+            <ScrollToTop />
+          </div>
+        </body>
+      </html>
+      <Script src="https://checkout.razorpay.com/v1/checkout.js" />
     </>
   );
 }
