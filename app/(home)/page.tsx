@@ -62,7 +62,7 @@ export default async function Home() {
             Sacred Digital Worship
           </h1>
           <p className="md:text-right text-center  text-base-white text-[15px] md:text-[25px] capitalize font-[300] md:font-[300] leading-[30px] tracking-[0.25px] md:tracking-[0.25px] font-open-sans">
-            Experience the World's First Custom built
+            Experience the World&apos;s First Custom built
             <br />
             Tablet with Distraction-Free Spirituality
           </p>
